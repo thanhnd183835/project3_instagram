@@ -1,0 +1,104 @@
+.edit_container {
+  margin-top: 100px;
+  background-color: #fff;
+  width: 940px;
+  max-width: 100%;
+  height: 500px;
+  display: flex;
+  border: 1px solid #e4e4eb;
+  margin: 100px auto;
+}
+.edit_option {
+  width: 30%;
+  border-right: 1px solid #e4e4eb;
+}
+.option {
+  padding: 20px;
+  cursor: pointer;
+}
+.active {
+  font-weight: bold;
+  border-left: 2px solid black;
+  padding: 20px;
+  cursor: pointer;
+}
+.edit_box_data {
+  width: 70%;
+  padding: 30px;
+}
+.edit_element {
+  margin-bottom: 30px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+.edit_inputText {
+  max-width: 3550px;
+  width: 100%;
+  height: 32px;
+  margin-left: 30px;
+  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 0 10px;
+}
+.edit_profile_label {
+  min-width: 130px;
+  font-weight: bold;
+  text-align: right;
+}
+.edit_infoUser {
+  font-size: 18px;
+  font-weight: bold;
+}
+.edit_avatar {
+  color: #3e7bfa;
+  font-weight: bold;
+  cursor: pointer;
+}
+.edit_btn {
+  color: #fff;
+  background-color: #3e7bfa;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-left: 160px;
+  cursor: pointer;
+}
+.edit_btn:active {
+  background-color: rgba(62, 123, 250, 0.3);
+}
+.edit_password {
+  padding: 30px;
+}
+.lb_pw {
+  max-width: 130px;
+  font-weight: bold;
+}
+
+.edit_btn_pw {
+  color: #fff;
+  background-color: #3e7bfa;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-left: 160px;
+  cursor: pointer;
+}
+.edit_btn_pw:active {
+  background-color: rgba(62, 123, 250, 0.3);
+}
+.edit_profile_text_error {
+  color: red;
+  margin-left: 30px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .edit_option {
+    display: none;
+  }
+}

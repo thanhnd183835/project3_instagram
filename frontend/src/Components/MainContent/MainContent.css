@@ -1,0 +1,58 @@
+body {
+    background-color: #fafafa;
+}
+.maincontent__container {
+    max-width: 47% !important;
+    overflow-y: scroll;
+    /* max-height: 890px; */
+    min-width: 400px;
+}
+
+.maincontent__container::-webkit-scrollbar {
+    display: none;
+  }
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.maincontent__container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.mainpage__uploadicon {
+    height: 80px;
+    width: 80px;
+}
+.mainpage__divider {
+    height: 0px;
+    width: 220px;
+    border: 1px solid #dbdbdb;
+    margin-top: 40px;
+}
+.mainpage__container {
+    text-align: center;
+    margin: 0px 10px 0px -20px;
+    display :flex ;
+    justify-content: center ;
+}   
+.fileupload > input {
+    display: none;
+}
+.upload_text {
+    text-align: center;
+    margin-left: -25px;
+}
+
+@media screen and (max-width: 567px) {
+    .maincontent__container {
+        margin: auto !important;
+    }
+}
+.maincontent__right {
+    margin-left: 20px;
+}
+
+@media screen and (min-width: 1800px ) {
+    .maincontent__right {
+        margin-left: -120px;
+    }
+}

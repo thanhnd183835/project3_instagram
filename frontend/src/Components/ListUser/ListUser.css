@@ -1,0 +1,18 @@
+.listUser_input {
+  border-radius: 6px;
+  flex-grow: 1;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  overflow: visible;
+  padding: 4px 12px;
+  outline: 0 !important;
+  border: 0;
+}
+.listUser_search_container {
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+  max-height: 250px;
+  width: 100%;
+  padding: 10px 0;
+}

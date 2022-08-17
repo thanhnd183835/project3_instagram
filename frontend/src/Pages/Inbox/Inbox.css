@@ -1,0 +1,145 @@
+.inbox_box {
+  padding-top: 80px;
+  display: flex;
+  max-width: 940px;
+  width: 100%;
+  border-bottom: 1px solid #e4e4eb;
+  margin: auto;
+}
+.room_element {
+  display: flex;
+  /* flex-direction: row; */
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+  padding: 20px;
+}
+.room_element:hover {
+  background-color: rgba(228, 228, 235, 0.3);
+}
+.active_user li::before {
+  color: green;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.room_active {
+  background-color: #e4e4eb;
+  display: flex;
+  /* flex-direction: row; */
+  gap: 20px;
+  align-items: center;
+  cursor: pointer;
+  padding: 20px;
+}
+.room_active_text {
+  color: red;
+}
+.active_user {
+  padding: 0px;
+  margin: 0px;
+}
+.room_userName {
+  font-size: 16px;
+}
+.inbox_listChat {
+  width: 40%;
+  background-color: #fff;
+  border-top: 1px solid #e4e4eb;
+  border-left: 1px solid #e4e4eb;
+}
+.listChat_header {
+  border-bottom: 1px solid #e4e4eb;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.box_data {
+  width: 60%;
+  background-color: #fff;
+  border-left: 1px solid #e4e4eb;
+  border-top: 1px solid #e4e4eb;
+  border-right: 1px solid #e4e4eb;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.header {
+  height: 70px;
+  border-bottom: 1px solid #e4e4eb;
+}
+.chat {
+  height: 800px;
+  position: relative;
+}
+.chat_content {
+  display: grid;
+  padding: 30px;
+  overflow: auto;
+  max-height: 650px;
+}
+.inbox_element {
+  width: 100%;
+  margin-bottom: 10px;
+  max-height: 30px;
+}
+.inbox_content_sender {
+  display: inline-block;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #e4e4eb;
+  float: right;
+}
+.inbox_content_receiver {
+  width: fit-content;
+  background-color: #fff;
+  border: 1px solid #e4e4eb;
+  padding: 10px;
+  border-radius: 20px;
+  float: left;
+}
+.chat_input {
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+.chat_input:focus {
+  outline: none;
+}
+
+.chat_default {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 300px;
+}
+
+.inbox_btn_send {
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-color: #0095f6;
+  font-size: 14px;
+  color: white;
+  line-height: 18px;
+  cursor: pointer;
+  display: block;
+  font-weight: 600;
+  padding: 5px 9px;
+  width: auto;
+  margin-top: 20px;
+}
+
+.profile-user-name {
+  cursor: pointer;
+}

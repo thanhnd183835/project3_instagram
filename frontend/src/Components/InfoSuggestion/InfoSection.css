@@ -1,0 +1,36 @@
+.info__container {
+  width: 100%;
+  height: 56px;
+  margin-top: 50px;
+  display: flex;
+  max-width: 400px;
+  margin-left: 20px;
+}
+.info__image {
+  min-width: 60px;
+  min-height: 60px;
+}
+.info_content {
+  margin-left: 20px;
+}
+.info_username {
+  margin: 5px;
+  font-weight: bold;
+}
+.info_description {
+  margin: 5px;
+  color: rgba(var(--f52, 142, 142, 142), 1);
+}
+.button__switch__account {
+  margin: 20px 0px 20px 30px;
+  color: #0395f6;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1800px) {
+  .info__container {
+    margin-left: -120px;
+  }
+}

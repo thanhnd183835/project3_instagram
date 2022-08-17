@@ -1,0 +1,69 @@
+.suggest {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 120px;
+}
+.data {
+  display: flex;
+  align-items: center;
+}
+.suggestions__image__detail {
+  margin-top: 10px;
+  width: 44px !important;
+  height: 44px !important;
+  cursor: pointer;
+}
+
+.list-data {
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.info {
+  margin-left: 10px;
+}
+
+.element {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.follow {
+  height: 30px;
+  width: 80px;
+  color: #ffffff;
+  background-color: #0395f6;
+  margin-top: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.followed {
+  height: 30px;
+  width: 100px;
+  color: #100f24;
+  background-color: white;
+  margin-top: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid silver;
+  cursor: pointer;
+}
+.user-name {
+  color: #100f24;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+.full-name {
+  color: #c9c8cc;
+  font-size: 14px;
+  cursor: pointer;
+}
+.followers {
+  color: #c9c8cc;
+  font-size: 14px;
+  cursor: pointer;
+}
